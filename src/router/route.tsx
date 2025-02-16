@@ -7,6 +7,7 @@ import Login from "../components/ui/Login/Login";
 import Register from "../components/ui/Register/Register";
 import ProfilePage from "../components/ui/ProfilePage/ProfilePage";
 import TokenBasePrivateRoute from "./PrivateRoute/TokenBasePrivateRoute";
+import ResetPassword from "../components/ui/ResetPassword/ResetPassword";
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <TokenBasePrivateRoute><ProfilePage/></TokenBasePrivateRoute>  ,
+      }, 
+      {
+        path: "/reset-password",
+        element: <ResetPassword/>  ,
       }, 
     ],
   },

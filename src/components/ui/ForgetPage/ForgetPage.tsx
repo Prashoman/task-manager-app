@@ -23,10 +23,11 @@ const ForgetPage = ({ forget, setForget }: ForgetPageProps) => {
         email,
       };
       const regResponse = await forgetPassword(userInfo).unwrap();
-      //   console.log("regResponse", regResponse);
+        console.log("regResponse", regResponse);
 
       toast.success(regResponse?.message, { id: tostId });
       navigate("/login");
+      setForget(!forget);
     } catch (error) {
       const errorMes = error as TError;
       toast.error(errorMes?.data?.message, { id: tostId });
