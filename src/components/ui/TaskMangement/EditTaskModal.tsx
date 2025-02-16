@@ -72,7 +72,7 @@ const EditTask = ({ modalRef, task }: EditTaskProps) => {
   return (
     <>
       <Modal modalRef={modalRef} formRef={formRef}>
-        <div className="max-w-md mx-auto bg-white p-6 rounded-lg ">
+        <div className="max-w-md mx-auto bg-white p-2 lg:p-6 rounded-lg ">
           <h2 className="text-xl font-semibold mb-4">Edit Task</h2>
 
           <form

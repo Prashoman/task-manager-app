@@ -31,9 +31,9 @@ const Register = () => {
   };
   return (
     <>
-      <div className="min-h-screen bg-gray-900 flex items-center justify-center px-4 pt-7">
-        <div className="bg-gray-800 w-full max-w-md  p-8 rounded-lg shadow-lg">
-          <h1 className="text-center text-white text-2xl font-medium font-serif mb-6">
+      <div className="min-h-screen bg-gray-200 flex items-center justify-center px-4 pt-7">
+        <div className="bg-gray-100 w-full max-w-md  p-8 rounded-lg shadow-lg">
+          <h1 className="text-center text-black text-2xl font-medium font-serif mb-6">
             Register First
           </h1>
           <SFForm onSubmit={handleRegistrationSubmit}>
@@ -67,7 +67,7 @@ const Register = () => {
             </button>
           </SFForm>
           <div className="mt-6 text-center">
-            <p className="text-white">
+            <p className="text-gray-600">
               Already have an account?{" "}
               <Link
                 to="/login"

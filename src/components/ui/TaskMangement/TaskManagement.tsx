@@ -82,7 +82,7 @@ const TaskManagement = () => {
   }
   return (
     <>
-      <div className="px-20 py-8">
+      <div className="px-4 py-10 lg:px-20 lg:py-8">
         <div className="w-full flex justify-between items-center pb-4">
           <h1>Task List</h1>
           <button

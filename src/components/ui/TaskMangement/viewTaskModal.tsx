@@ -38,7 +38,7 @@ const ViewTaskModal = ({ modalRef, task }: ViewTaskModalProps) => {
   return (
     <>
       <Modal modalRef={modalRef} formRef={formRef}>
-        <div className="max-w-md mx-auto bg-white p-6 rounded-lg ">
+        <div className="max-w-md mx-auto bg-white p-2 lg:p-6 rounded-lg ">
 
           <div className="border rounded-lg shadow-md p-4 bg-white">
             <h2 className="text-xl font-bold mb-2">{formValues.title}</h2>

@@ -36,7 +36,7 @@ const ForgetPage = ({ forget, setForget }: ForgetPageProps) => {
   return (
     <>
       <div>
-        <h1 className="text-center text-2xl text-white font-medium font-serif mb-6">
+        <h1 className="text-center text-2xl text-black font-medium font-serif mb-6">
           Forget Password
         </h1>
         <SFForm onSubmit={handleForgetSubmit}>
@@ -56,7 +56,7 @@ const ForgetPage = ({ forget, setForget }: ForgetPageProps) => {
           </button>
         </SFForm>
         <div className="mt-6 text-center">
-          <p className="text-white">
+          <p className="text-gray-600">
             Don't have an account?{" "}
             <Link
               to="/register"

@@ -43,13 +43,13 @@ const Login = () => {
     }
   };
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center px-4">
-      <div className="w-full max-w-md bg-gray-800  p-8 rounded-lg shadow-lg">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+      <div className="w-full max-w-md bg-gray-100  p-8 rounded-lg shadow-lg">
         {forget ? (
           <ForgetPage forget={forget} setForget={setForget} />
         ) : (
           <div>
-            <h1 className="text-center text-2xl text-white font-medium font-serif mb-6">
+            <h1 className="text-center text-2xl text-black font-medium font-serif mb-6">
               Login
             </h1>
             <SFForm onSubmit={handleLoginSubmit}>
@@ -75,7 +75,7 @@ const Login = () => {
               </button>
             </SFForm>
             <div className="mt-6 text-center">
-              <p className="text-white">
+              <p className="text-gray-600">
                 Don't have an account?{" "}
                 <Link
                   to="/register"
